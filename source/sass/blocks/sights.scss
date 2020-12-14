@@ -23,3 +23,26 @@
 }
 
 
+.sights__description:after {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: -13px;
+    left: 0px;
+    background-color: $bcg-grey;
+    background-repeat: no-repeat;
+  }
+
+  input:checked ~ 
+  .sights__description::before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 5px;
+    left: 15px;
+    background-image: url("../img/icon-tick.svg");
+    background-repeat: no-repeat;
+    z-index: 5;
+  }
