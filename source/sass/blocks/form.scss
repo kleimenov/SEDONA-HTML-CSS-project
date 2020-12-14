@@ -73,7 +73,6 @@
   list-style: none;
   color: $black-font;
   padding-top: 7px;
-  margin-bottom: 25px;
 }
 
 .form__legend:nth-last-of-type(1) {
@@ -100,6 +99,7 @@
 .form__contact {
   display: flex;
  justify-content: space-between;
+ margin-top: 67px;
 }
 
 
@@ -153,5 +153,7 @@
 }
 
 
-
+.contact__input {
+  width: 250px;
+}
 
