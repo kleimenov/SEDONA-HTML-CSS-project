@@ -1,0 +1,45 @@
+/*body { background: blue; }*/
+
+@import "variebles.scss";
+@import "general.scss";
+@import "fonts.scss";
+
+
+/* blocks index.html*/
+
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/site-list.scss";
+@import "blocks/index-page-main.scss";
+@import "blocks/reasons-list.scss";
+/*@import "blocks/other-reasons.scss";*/
+@import "blocks/point.scss";
+@import "blocks/comment-list.scss";
+@import "blocks/booking.scss";
+@import "blocks/footer.scss";
+@import "blocks/social.scss";
+
+/* blocks photo.html */
+
+@import "blocks/photo-page-main.scss";
+@import "blocks/photo-list.scss";
+@import "blocks/video.scss";
+
+
+/* blocks form.html */
+
+@import "blocks/form-page-main.scss";
+@import "blocks/form.scss";
+@import "blocks/name.scss";
+@import "blocks/label.scss";
+@import "blocks/contact.scss";
+@import "blocks/impression.scss";
+@import "blocks/sights.scss";
+
+/* services */
+
+@import "blocks/container.scss";
+
+
+
+

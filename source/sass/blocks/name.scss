@@ -1,0 +1,55 @@
+.name {
+
+}
+
+.name__person {
+    margin-bottom: 23px;
+}
+
+.name__person:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.name__person:nth-of-type(2) .name__input,
+.name__person:nth-of-type(3) .name__input {
+    width: 306px;
+}
+
+
+
+.name__label {
+
+}
+
+.name__input {
+    margin: 0;
+    padding: 0;
+    width: 345px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    background-color: $bcg-grey;
+    border: none;
+}
+
+.name__person:nth-of-type(3) .name__input {
+    margin-left: 16px;
+}
+
+::placeholder {
+    margin: 0;
+    padding: 0;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 18px;
+    font-size: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    list-style: none;
+    color: $black-font;
+    padding-left: 20px;
+}
+
+
+
+

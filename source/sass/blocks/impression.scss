@@ -1,0 +1,57 @@
+.impression {
+  margin: 0;
+  padding: 0;
+  margin-top: 71px;
+  margin-left: 15px;
+}
+
+.impression__item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 53px;
+}
+
+input:checked ~ 
+.impression__description::before {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  top: 1px;
+  left: 1px;
+  background-color: $shade-of-black-font;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+
+.impression__description {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black-font;
+  padding-left: 59px;
+  position: relative;
+}
+
+.impression__description::after {
+  content: "";
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  top: -15px;
+  left: -15px;
+  background-color: $bcg-grey;
+  background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,147 @@
+.form {
+  margin: 0;
+  padding: 0;
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.form__fieldset:nth-of-type(1) {
+  order: 2;
+  width: 50%;
+}
+.form__fieldset:nth-of-type(1) legend {
+  padding-left: 80px;
+}
+
+.form__fieldset:nth-of-type(2) {
+  order: 3;
+  width: 100%;
+  margin-top: 23px;
+}
+
+.form__fieldset:nth-of-type(2) legend {
+  border: 1px dashed coral;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form__fieldset:nth-of-type(3) {
+  order: 1;
+  width: 50%;
+  align-items: center;
+}
+
+.form__fieldset:nth-of-type(3) legend {
+  padding-left: 75px;
+}
+
+
+
+
+.form__fieldset:nth-of-type(4) {
+  order: 4;
+  width: 100%;
+}
+
+.form__fieldset:nth-of-type(5) {
+  order: 5;
+  width: 100%;
+}
+
+
+
+.form__legend {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  list-style: none;
+  color: $black-font;
+  padding-top: 7px;
+}
+
+.form__legend:nth-last-of-type(1) {
+  /*padding-left: 15px;*/
+}
+
+.form__name {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: right;
+  list-style: none;
+  text-transform: uppercase;
+  color: $shade-of-black-font;
+  margin-top: 55px;
+}
+
+.form__contact {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  list-style: none;
+  text-transform: uppercase;
+  color: $shade-of-black-font;
+
+}
+
+.form__impression {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.form__sights {
+  margin: 0;
+  padding: 0;
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  list-style: none;
+  color: $black-font;
+
+}
+
+.form__textarea {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+
+
+
