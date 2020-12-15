@@ -16,38 +16,38 @@
 
 .comment-list__item:nth-of-type(1)::after {
   content: "";
-  width: 100%;
+  width: 76px;
   height: 76px;
   position: absolute;
   z-index: 2;
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
   top: -110px;
-  left: 179px;
+  left: 160px;
 }
 
 .comment-list__item:nth-of-type(2)::after {
   content: "";
-  width: 100%;
+  width: 76px;
   height: 76px;
   position: absolute;
   z-index: 2;
   background-image: url("../img/icon-gift.svg");
   background-repeat: no-repeat;
   top: -113px;
-  left: 164px;
+  left: 156px;
 }
 
 .comment-list__item:nth-of-type(3)::after {
   content: "";
-  width: 100%;
+  width: 76px;
   height: 73px;
   position: absolute;
   z-index: 2;
   background-image: url("../img/icon-burger.svg");
   background-repeat: no-repeat;
   top: -107px;
-  left: 183px;
+  left: 179px;
 }
 
 .comment-list__title {
@@ -55,7 +55,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  padding-left: 69px;
+  padding-left: 41px;
   padding-right: 41px;
   padding-top: 1px;
   padding-bottom: 12px;
@@ -88,42 +88,38 @@
 
 }
 
-@media (min-width: $tablet-width) {
-
-  .comment-list {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    margin-top: 117px;
-    margin-bottom: 64px;
-  }
 
 
-  .comment-list__title {
-    font-size: 21px;
-    margin-bottom: 7px;
-    text-align: center;
-  }
-
-  .comment-list__item {
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-
-  .comment-list__item:nth-of-type(2) {
-    order: 3;
-  }
-
-  .comment-list__item:nth-of-type(3) {
-    order: 2;
-  }
-
-  .comment-list__text {
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
-
+.comment-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  margin-top: 117px;
+  margin-bottom: 64px;
 }
+.comment-list__title {
+  font-size: 21px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.comment-list__item {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.comment-list__item:nth-of-type(2) {
+  order: 3;
+}
+.comment-list__item:nth-of-type(3) {
+  order: 2;
+}
+.comment-list__text {
+
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+
 
