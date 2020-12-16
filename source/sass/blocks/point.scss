@@ -42,7 +42,7 @@
 
 
 .point__head-tight {
-  width: 320px;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -150,14 +150,14 @@
   margin: 0;
   padding: 0;
   vertical-align: top;
-  width: 800px;
+  width: 113%;
   height: 260px;
   object-fit: cover;
 }
 
 .point__img--croped {
   object-fit: cover;
-  width: 800px;
+  width: 100%;
   height: 260px;
 }
 
@@ -184,6 +184,16 @@
 }
 
 /* ---- tablet ---- */
+
+@media (max-height: 960px) {
+  .point__img {
+    width: 140%;
+  }
+  .point__img--croped {
+    width: 100%;
+  }
+}
+
 /*
 @media (min-width: $tablet-width) {
   .point__title,

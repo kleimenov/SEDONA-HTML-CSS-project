@@ -1,22 +1,37 @@
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  width: 1120px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1120px) {
   .container {
     margin-right: auto;
     margin-left: auto;
-    width: 900px;
+    width: 960px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   .container {
     margin-right: auto;
     margin-left: auto;
-    width: 800px;
+    width: 770px;
   }
 }
 
+@media (max-width: 770px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 530px;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+}
