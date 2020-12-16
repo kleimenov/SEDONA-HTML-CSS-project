@@ -25,7 +25,7 @@
   width: 185px;
   height: auto;
   z-index: 3;
-  margin-top: -53px;
+  margin-top: -57px;
 }
 
 
@@ -33,11 +33,13 @@
 
 @media (max-width: 960px) {
   .page-header__logo-image {
-    margin: 0;
-    padding: 0;
     margin-top: -67px;
   }
 }
 
-
+@media (max-width: 960px) {
+  .page-header__logo-image {
+    margin-top: -81px;
+  }
+}
 
