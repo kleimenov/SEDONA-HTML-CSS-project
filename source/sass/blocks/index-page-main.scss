@@ -10,11 +10,14 @@
   padding: 0;
   margin-top: -31px;
   margin-bottom: 0;
-  background-image: url($bg-img-mob);
+  width: 100%;
+  background-image: url($bg-img-desk);
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
 }
+
+
 
 .index-page-main__background-img::after {
   content: "";

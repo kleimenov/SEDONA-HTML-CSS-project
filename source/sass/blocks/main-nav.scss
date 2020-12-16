@@ -15,10 +15,8 @@
 .main-nav__wrapper {
   margin: 0;
   padding: 0;
-
-  background-color: $bgc-blue;
-
-
+  background-color: $bcg-white;
+  /*background-color: $bgc-blue;*/
 }
 
 .main-nav__list {
@@ -30,6 +28,7 @@
 
 /* ---- tablet ---- */
 
+/*
 @media (min-width: $tablet-width) {
   .main-nav__wrapper {
     background-color: $bcg-white;
@@ -40,5 +39,5 @@
 @media (min-width: $tablet-width) {
   .main-nav {
   }
-
 }
+*/
