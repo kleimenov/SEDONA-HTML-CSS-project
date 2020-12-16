@@ -4,11 +4,19 @@
   width: 1200px;
 }
 
-@media (max-width: $tablet-width) {
+@media (max-width: 1200px) {
   .container {
     margin-right: auto;
     margin-left: auto;
-    width: 700px;
+    width: 900px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
   }
 }
 
