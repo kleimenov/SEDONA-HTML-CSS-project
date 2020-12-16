@@ -122,6 +122,15 @@
   }
 }
 
+@media (max-height: 770px) {
+  .index-page-main__background-img::after {
+    bottom: -12px;
+  }
+  .index-page-main__image {
+    width: 230px;
+  }
+}
+
 /*
 @media (min-width: $tablet-width) {
 
