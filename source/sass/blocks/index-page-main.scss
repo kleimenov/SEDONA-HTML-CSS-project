@@ -117,6 +117,9 @@
 
 
 @media (max-width: 960px) {
+  .index-page-main__background-img {
+    margin-top: -25px;
+  }
   .index-page-main__background-img::after {
     height: 49px;
   }
@@ -125,10 +128,15 @@
 @media (max-height: 770px) {
   .index-page-main__background-img::after {
     bottom: -12px;
+    height: 37px;
   }
   .index-page-main__image {
-    width: 230px;
+    width: 210px;
   }
+  .index-page-main__title {
+    width: 100%;
+  }
+  
 }
 
 /*

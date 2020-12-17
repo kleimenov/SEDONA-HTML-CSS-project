@@ -23,6 +23,7 @@
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 65px;
   top: -110px;
   left: 0;
 }
@@ -38,6 +39,7 @@
   background-position: center;
   top: -113px;
   left: 0;
+  background-size: 65px;
 }
 
 .comment-list__item:nth-of-type(3)::after {
@@ -51,6 +53,7 @@
   background-position: center;
   top: -107px;
   left: 0;
+  background-size: 65px;
 }
 
 .comment-list__title {
@@ -118,7 +121,6 @@
   order: 2;
 }
 .comment-list__text {
-
   padding-left: 50px;
   padding-right: 50px;
   text-align: center;
