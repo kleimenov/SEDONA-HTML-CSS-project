@@ -129,6 +129,7 @@
   .comment-list__item:nth-of-type(1)::after,
   .comment-list__item:nth-of-type(2)::after,
   .comment-list__item:nth-of-type(3)::after {
+    top: -80px;
     background-size: 65px;
   }
   .comment-list {
@@ -137,6 +138,10 @@
   }
   .comment-list__title {
     font-size: 16px;
+  }
+  .comment-list__text {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
