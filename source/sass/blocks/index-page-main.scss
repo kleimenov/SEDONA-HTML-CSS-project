@@ -22,7 +22,7 @@
 .index-page-main__background-img::after {
   content: "";
   width: 101%;
-  height: 58px;
+  height: 54px;
   position: absolute;
   z-index: 2;
   background-size: 100%;
@@ -116,16 +116,22 @@
 /* ---- tablet ---- */
 
 
+@media (max-width: 1120px) {
+  .index-page-main__background-img::after {
+    height: 46px;
+  }
+}
+
 @media (max-width: 960px) {
   .index-page-main__background-img {
     margin-top: -25px;
   }
   .index-page-main__background-img::after {
-    height: 49px;
+    height: 37px;
   }
 }
 
-@media (max-height: 770px) {
+@media (max-width: 770px) {
   .index-page-main__background-img::after {
     bottom: -12px;
     height: 37px;
@@ -141,6 +147,13 @@
   }
   
 }
+
+@media (max-width: 530px) {
+  .index-page-main__background-img::after {
+    height: 30px;
+  }
+}
+
 
 /*
 @media (min-width: $tablet-width) {

@@ -89,8 +89,19 @@
     margin-bottom: 10px;
   }
   .booking__link {
+    width: 270px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .booking__img {
+    height: 300px; 
+  }
+  .booking__link::after {
+    width: 10px;
+    height: 10px;
+    left: 178px;
+    bottom: -178px;
+    border: 3px solid $white-font;
   }
 }
 
