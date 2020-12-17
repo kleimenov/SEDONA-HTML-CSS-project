@@ -8,7 +8,7 @@
 .index-page-main__background-img {
   margin: 0;
   padding: 0;
-  margin-top: -31px;
+  margin-top: -15px;
   margin-bottom: 0;
   width: 100%;
   background-image: url($bg-img-desk);
@@ -22,7 +22,7 @@
 .index-page-main__background-img::after {
   content: "";
   width: 101%;
-  height: 46px;
+  height: 58px;
   position: absolute;
   z-index: 2;
   background-size: 100%;
@@ -118,7 +118,7 @@
 
 @media (max-width: 960px) {
   .index-page-main__background-img::after {
-    height: 37px;
+    height: 49px;
   }
 }
 
