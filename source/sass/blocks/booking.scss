@@ -105,6 +105,16 @@
   }
 }
 
+@media (max-width: 530px) {
+  .booking__link {
+    font-size: 18px;
+    width: 40%;
+  }
+  .booking__link::after {
+    left: 150px;
+  }
+}
+
 /*
 @media (min-width: $tablet-width) {
   .booking__title {

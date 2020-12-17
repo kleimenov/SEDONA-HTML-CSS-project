@@ -150,7 +150,13 @@
 
 @media (max-width: 530px) {
   .index-page-main__background-img::after {
-    height: 30px;
+    height: 37px;
+  }
+}
+
+@media (max-width: 515px) {
+  .index-page-main__background-img::after {
+    display: none;
   }
 }
 

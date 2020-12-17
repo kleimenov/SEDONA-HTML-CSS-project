@@ -196,7 +196,7 @@
 
 @media (max-height: 770px) {
   .point__img--croped {
-    width: 70%;
+    width: 63%;
   }
   .point__title,
   .point-2__title {
@@ -229,6 +229,22 @@
   }
 .point-2__title {
   width: auto;
+  }
+  .point__wrapper,
+  .point:nth-of-type(2) .point__wrapper {
+    flex-direction: column;
+  }
+  .point__img {
+    width: auto;
+  }
+  .point__head-tight {
+    margin-bottom: 10px;
+  }
+  .point__description,
+  .point-2__description {
+    padding-top: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 
