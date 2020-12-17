@@ -84,16 +84,22 @@
   height: auto;
 }
 
-.social-sites {
-
-}
-
-
 
 
 
 @media (max-width: 530px) {
   .footer__wrapper {
     flex-direction: column;
+  }
+  .footer__social-list {
+    justify-content: center;
+  }
+  .footer__social-list li {
+    width: 65px;
+    height: 50px;
+  }
+  .footer__title {
+    padding-top: 10px;
+    font-size: 34px;
   }
 }
