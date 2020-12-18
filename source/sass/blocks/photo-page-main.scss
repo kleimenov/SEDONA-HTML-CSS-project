@@ -54,7 +54,6 @@
   text-transform: uppercase;
   color: $black-font;
   margin-top: 99px;
-
 }
 
 .photo-page-main__description {
@@ -108,6 +107,9 @@
   .photo-page-main__wrapper::after {
     bottom: -12px;
     height: 37px;
+  }
+  .photo-page-main__title {
+    margin-top: 50px;
   }
 }
 

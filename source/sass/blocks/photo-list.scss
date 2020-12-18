@@ -124,3 +124,19 @@
     height: 230px;
   }
 }
+
+@media (max-width: 770px) {
+  .photo-list {
+    flex-direction: column;
+  }
+  .photo-list__item:first-of-type {
+    height: 350px;
+  }
+  .photo-list__item:first-child .photo-list__image {
+    height: 350px;
+  }
+  .image-data {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
