@@ -115,11 +115,17 @@
     margin-top: 10px;
     margin-bottom: 35px;
   }
+  .photo-page-main__image-back {
+    width: 350px;
+  }
 }
 
 @media (max-width: 530px) {
   .photo-page-main__wrapper::after {
     height: 37px;
+  }
+  .photo-page-main__image-back {
+    width: 250px;
   }
 }
 

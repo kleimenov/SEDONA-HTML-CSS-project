@@ -43,7 +43,7 @@
 }
 
 .video__container {
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -89,6 +89,13 @@
 @media (max-width: 770px) {
   .video {
     margin-top: 35px;
+  }
+  .video__text {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  .video__container {
+    margin-bottom: 30px;
   }
 }
 
