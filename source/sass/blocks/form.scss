@@ -1,7 +1,7 @@
 .form {
   margin: 0;
   padding: 0;
-  width: 950px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -187,7 +187,7 @@
 .form__textarea {
   margin: 0;
   padding: 0;
-  width: 955px;
+  width: 100%;
   height: 145px;
   margin-top: 56px;
   margin-left: auto;
@@ -215,5 +215,17 @@
 
 
 .contact__detail:first-of-type {
+  
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 770px) {
+  
+}
+
+@media (max-width: 530px) {
   
 }

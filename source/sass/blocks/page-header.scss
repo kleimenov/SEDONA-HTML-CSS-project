@@ -71,8 +71,6 @@
 }
 
 
-
-
 @media (max-width: 960px) {
   .page-header__logo-imageP {
     margin-top: -67px;
@@ -88,6 +86,36 @@
 
 @media (max-width: 530px) {
   .page-header__logo-imageP {
+   display: none;
+  }
+}
+
+.page-header__logo-imageF {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 185px;
+  height: auto;
+  z-index: 3;
+  margin-top: -57px;
+}
+
+
+@media (max-width: 960px) {
+  .page-header__logo-imageF {
+    margin-top: -67px;
+  }
+}
+
+@media (max-width: 770px) {
+  .page-header__logo-imageF {
+    margin-top: -81px;
+    width: 170px;
+  }
+}
+
+@media (max-width: 530px) {
+  .page-header__logo-imageF {
    display: none;
   }
 }

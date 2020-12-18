@@ -97,3 +97,22 @@
   text-transform: uppercase;
   color: $white-font;
 }
+
+
+@media (max-width: 960px) {
+  .form-page-main__title {
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media (max-width: 770px) {
+  
+}
+
+@media (max-width: 530px) {
+  
+}
+
+
