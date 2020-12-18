@@ -86,5 +86,9 @@
   border-radius: 50%;
 }
 
-
+@media (max-width: 770px) {
+  .video {
+    margin-top: 35px;
+  }
+}
 
