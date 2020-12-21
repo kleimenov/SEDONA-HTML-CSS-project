@@ -114,7 +114,9 @@
 }
 
 @media (max-width: 530px) {
-  
+  .form-page-main__form {
+    flex-direction: column;
+  }
 }
 
 

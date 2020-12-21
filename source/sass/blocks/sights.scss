@@ -46,3 +46,11 @@
     background-repeat: no-repeat;
     z-index: 5;
   }
+
+
+  @media (max-width: 770px) {
+    .sights__item {
+      width: 50%;
+      margin-top: 40px;
+    }
+  }
