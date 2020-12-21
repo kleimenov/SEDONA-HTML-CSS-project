@@ -42,8 +42,19 @@
   position: absolute;
   width: 35%;
   height: 2px;
-  top: 0;
+  top: 20px;
   left: 0;
+  background-color: rgba(136, 134, 134, 0.4);
+  z-index: 4;
+}
+
+.form__fieldset:nth-of-type(2) legend::before {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 2px;
+  top: 20px;
+  right: 0;
   background-color: rgba(136, 134, 134, 0.4);
   z-index: 4;
 }

@@ -52,4 +52,32 @@
 
 
 
+@media (max-width: 1120px) {
+    .name__input {
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: 0;
+    }
+    .name__person:nth-of-type(2) .name__input,
+    .name__person:nth-of-type(3) .name__input {
+        width: 260px;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    
+  }
+  
+  @media (max-width: 770px) {
+    
+  }
+  
+  @media (max-width: 530px) {
+
+  }
+  
+  @media (max-width: 515px) {
+
+  }
 
