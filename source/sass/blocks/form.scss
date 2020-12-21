@@ -25,6 +25,8 @@
   order: 3;
   width: 100%;
   margin-top: 23px;
+  position: relative;
+  padding-top: 2px;
 }
 
 .form__fieldset:nth-of-type(2) legend {
@@ -34,11 +36,36 @@
   margin-left: auto;
 }
 
+.form__fieldset:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  width: 35%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: rgba(136, 134, 134, 0.4);
+  z-index: 4;
+}
+
+
 .form__fieldset:nth-of-type(3) {
   order: 1;
   width: 50%;
   align-items: center;
+  position: relative;
+  padding-right: 10px;
 }
+.form__fieldset:nth-of-type(3)::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 92%;
+  top: 14px;
+  right: -1px;
+  background-color: rgba(136, 134, 134, 0.4);
+  z-index: 4;
+}
+
 
 .form__fieldset:nth-of-type(3) legend {
   padding-left: 75px;
