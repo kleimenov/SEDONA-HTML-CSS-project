@@ -37,7 +37,9 @@
   padding-left: 5px;
 }
 
-.form__fieldset:nth-of-type(2) legend::after {
+.form__fieldset:nth-of-type(2) legend::after,
+.form__fieldset:nth-of-type(4) legend::after,
+.form__fieldset:nth-of-type(5) legend::after {
   content: "";
   position: absolute;
   width: 35%;
@@ -48,7 +50,9 @@
   z-index: 4;
 }
 
-.form__fieldset:nth-of-type(2) legend::before {
+.form__fieldset:nth-of-type(2) legend::before,
+.form__fieldset:nth-of-type(4) legend::before,
+.form__fieldset:nth-of-type(5) legend::before {
   content: "";
   position: absolute;
   width: 35%;
@@ -90,10 +94,12 @@
   order: 4;
   width: 100%;
   margin-top: 100px;
+  position: relative;
 }
 
 .form__fieldset:nth-of-type(5) {
   order: 5;
+  position: relative;
   width: 100%;
   margin-top: 79px;
 }
@@ -290,7 +296,11 @@
     width: 290px;
   }
   .form__fieldset:nth-of-type(2) legend::before,
-  .form__fieldset:nth-of-type(2) legend::after {
+  .form__fieldset:nth-of-type(2) legend::after,
+  .form__fieldset:nth-of-type(4) legend::before,
+  .form__fieldset:nth-of-type(4) legend::after,
+  .form__fieldset:nth-of-type(5) legend::before,
+  .form__fieldset:nth-of-type(5) legend::after {
     width: 32%;
   }
   .form__fieldset:nth-of-type(4) {
@@ -304,7 +314,6 @@
 @media (max-width: 770px) {
   .form__fieldset:nth-of-type(3),
   .form__fieldset:nth-of-type(3) {
-    /*width: 100%;*/
     width: 50%;
   }
   /*
@@ -326,6 +335,30 @@
   }
   .form__legend:nth-last-of-type(1) {
     padding-left: 0;
+  }
+  .form__contact {
+    flex-direction: column;
+  }
+
+  .contact__input:first-of-type {
+    margin-left: 10px;
+    width: 350px;
+    margin-bottom: 25px;
+  }
+  .contact__detail:nth-of-type(2) {
+    padding-left: 30px;
+  }
+  .form__fieldset:nth-of-type(2) legend::before,
+  .form__fieldset:nth-of-type(2) legend::after,
+  .form__fieldset:nth-of-type(4) legend::before,
+  .form__fieldset:nth-of-type(4) legend::after,
+  .form__fieldset:nth-of-type(5) legend::before,
+  .form__fieldset:nth-of-type(5) legend::after {
+    width: 26%;
+  }
+  .form__fieldset:nth-of-type(4),
+  .form__fieldset:nth-of-type(5) {
+    margin-top: 40px;
   }
 }
 
