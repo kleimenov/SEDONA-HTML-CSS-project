@@ -19,6 +19,7 @@
 }
 .form__fieldset:nth-of-type(1) legend {
   padding-left: 80px;
+  position: relative;
 }
 
 .form__fieldset:nth-of-type(2) {
@@ -358,6 +359,39 @@
 }
 
 @media (max-width: 530px) {
+  .form__fieldset:nth-of-type(1) {
+    width: 100%;
+  }
+  .form__fieldset:nth-of-type(1) legend {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .form__fieldset:nth-of-type(1) legend::after {
+    content: "";
+    position: absolute;
+    width: 27%;
+    height: 2px;
+    top: 20px;
+    left: 0;
+    background-color: rgba(136, 134, 134, 0.4);
+    z-index: 4;
+  }
+  
+  
+  .form__fieldset:nth-of-type(1) legend::before {
+    content: "";
+    position: absolute;
+    width: 27%;
+    height: 2px;
+    top: 20px;
+    right: 0;
+    background-color: rgba(136, 134, 134, 0.4);
+    z-index: 4;
+    }
+
   .form__fieldset:nth-of-type(3) {
     width: 100%;
   }
