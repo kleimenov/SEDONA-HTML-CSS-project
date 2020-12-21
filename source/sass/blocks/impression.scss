@@ -71,3 +71,29 @@ input:checked ~
   }
 }
 
+@media (max-width: 470px) {
+  .impression__description {
+    font-size: 16px;
+    padding-left: 40px;
+  }
+  input:checked ~ .impression__description::before {
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    left: -4px;
+  }
+  .impression__description::after {
+    width: 37px;
+    height: 36px;
+    top: -8px;
+    left: -15px;
+  }
+}
+@media (max-width: 420px) {
+  .impression {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
