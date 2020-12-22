@@ -275,12 +275,6 @@
 }
 
 
-
-
-.contact__detail:first-of-type {
-  
-}
-
 @media (max-width: 960px) {
   .form__contact {
     margin: 0;
@@ -453,6 +447,9 @@
   .contact__detail:nth-child(1) .contact__label::after,
   .contact__detail:nth-child(2) .contact__label::after {
     top: 27px;
+  }
+  .form__textarea::placeholder {
+    font-size: 13px;
   }
 }
 
