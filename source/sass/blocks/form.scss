@@ -394,6 +394,7 @@
 
   .form__fieldset:nth-of-type(3) {
     width: 100%;
+    padding-right: 0;
   }
   .form__fieldset:nth-of-type(3) legend {
     width: unset;
@@ -429,6 +430,11 @@
     margin-right: 25px;
     margin-left: 25px;
   }
+  .form__fieldset:nth-of-type(2) legend {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 @media (max-width: 470px) {
   .contact__label {
@@ -469,10 +475,7 @@
     width: 100%;
     top: 45px;
   }
-  .form__fieldset:nth-of-type(2) legend {
-    padding-left: 0;
-    padding-right: 0;
-  }
+
 }
 @media (max-width: 350px) {
   .contact__input:first-of-type {
