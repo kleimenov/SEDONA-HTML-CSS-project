@@ -3,7 +3,6 @@ let likesNumber = document.querySelectorAll('.photo-list__like-count')
 
 
 
-
 for (let index in thumb) {
     thumb[index].onclick = () => {
         if (thumb[index].classList.contains('added')) {
