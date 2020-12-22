@@ -11,5 +11,5 @@ for (let index in thumb) {
             likesNumber[index].textContent++;
         }
         thumb[index].classList.toggle('added');
-    };
+    }
 }
