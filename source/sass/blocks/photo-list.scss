@@ -102,13 +102,9 @@
   z-index: 4;
 }
 
-//------------------------//
-
 .photo-list__likes.added::after {
   background-image: url("../img/icon-liked.svg");
 }
-
-//-----------------------//
 
 
 .photo-list__like-count {
