@@ -470,3 +470,8 @@
     top: 45px;
   }
 }
+@media (max-width: 350px) {
+  .contact__input:first-of-type {
+    width: 85%;
+  }
+}

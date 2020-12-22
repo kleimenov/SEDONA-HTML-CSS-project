@@ -63,3 +63,18 @@
       font-size: 16px;
     }
   }
+
+  @media (max-width: 350px) {
+    .sights__description {
+      padding-left: 60px;
+      font-size: 13px;
+    }
+    input:checked ~ .sights__description::before {
+      width: 23px;
+      height: 23px;
+    }
+    .sights__description:after {
+      width: 45px;
+      height: 45px;
+    }
+  }
