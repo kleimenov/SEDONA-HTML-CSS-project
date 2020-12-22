@@ -104,6 +104,9 @@
 
 //------------------------//
 
+.photo-list__likes.added::after {
+  background-image: url("../img/icon-liked.svg");
+}
 
 //-----------------------//
 
