@@ -185,7 +185,7 @@
 
 /* ---- tablet ---- */
 
-@media (max-height: 960px) {
+@media (max-width: 960px) {
   .point__img {
     width: 140%;
   }
@@ -194,7 +194,7 @@
   }
 }
 
-@media (max-height: 770px) {
+@media (max-width: 770px) {
   .point__img--croped {
     width: 63%;
   }
