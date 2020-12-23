@@ -1,12 +1,12 @@
 .modal {
-    width: 50%;
     margin-left: auto;
     margin-right: auto;
     position: absolute;
-   
-    //display: none;
-    top: 0;
-    left: 0;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
 }
 
 .modal__form {
