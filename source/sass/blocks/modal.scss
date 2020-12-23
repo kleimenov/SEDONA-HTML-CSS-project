@@ -2,15 +2,16 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: $bcg-grey;
     position: absolute;
+   
     //display: none;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
 }
 
 .modal__form {
     border: 1px solid $bcg-grey;
+    background-color: $bcg-grey;
 }
 
 .modal__legend {
