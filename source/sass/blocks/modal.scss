@@ -147,17 +147,16 @@
   
     width: 20px;
     height: 20px;
-  
     font-size: 0;
-  
     background: none;
     border: 0;
   }
+
+
   
   .modal__button::after,
   .modal__button::before {
     content: "";
-  
     position: absolute;
     right: 0;
     top: 20px;
@@ -165,7 +164,6 @@
     width: 26px;
     height: 6px;
     margin: -13px -3px;
-  
     background-color: $white-font;
   }
   
@@ -176,7 +174,16 @@
   .modal__button::after {
     transform: rotate(-45deg);
   }
+
+  .modal__button:hover::after,
+  .modal__button:hover::before {
+    background-color: $bcg-shade-of-gray;
+}
   
   .modal--show {
     display: block;
+  }
+
+  .modal--hide {
+    display: none;
   }

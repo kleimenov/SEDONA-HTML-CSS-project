@@ -61,6 +61,16 @@
   text-transform: uppercase;
 }
 
+.booking__link:hover {
+  background-color: $bgc-blue;
+  opacity: 0.8;
+}
+
+.booking__link:active {
+  background-color: $bgc-blue;
+  opacity: 1;
+}
+
 .booking__img {
   display: block;
   margin: 0;
