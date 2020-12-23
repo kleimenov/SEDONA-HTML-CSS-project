@@ -2,6 +2,7 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    background-color: $bcg-grey;
 }
 
 .modal__form {
@@ -100,6 +101,7 @@
     font-family: PTSans, Arial, sans-serif;
     font-size: 14px;
     color: $shade-of-black-font;
+    text-align: center;
 }
 
 .conditions:nth-of-type(3) .conditions__input,
