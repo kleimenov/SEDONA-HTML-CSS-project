@@ -54,12 +54,13 @@
     flex-direction: row;
     width: 100%;
 }
-.conditions__label:nth-of-type(3),
-.conditions__label:nth-of-type(4) {
+.conditions:nth-of-type(3) .conditions__label,
+.conditions:nth-of-type(4) .conditions__label {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 50%;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 
@@ -68,7 +69,8 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    width: 19%;
+    width: 20%;
+    padding-top: 10px;
 }
 
 .conditions:nth-of-type(3) .condition__text,
@@ -76,7 +78,7 @@
     margin: 0;
     padding: 0;
     display: inline-block;
-    width: 18%;
+    width: 20%;
 }
 
 
@@ -84,12 +86,25 @@
     margin: 0;
     padding: 0;
     width: 80%;
+    border: none;
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+.conditions__input::placeholder {
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 14px;
+    color: $shade-of-black-font;
+}
+
 .conditions:nth-of-type(3) .conditions__input,
 .conditions:nth-of-type(4) .conditions__input {
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .modal-button {
