@@ -65,13 +65,10 @@ weather.temperature = {
 const KELVIN = 273;
 
 //API key
-
 const key = '072e3ec2199386d51ce3c8b4fd8b194d';
 
-//src
 
 function getWeather() {
-    console.log("first");
     // let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtitude}&appid=${key}`;
     let api = `https://api.openweathermap.org/data/2.5/weather?q=Sedona&appid=072e3ec2199386d51ce3c8b4fd8b194d`;
 
@@ -80,7 +77,6 @@ function getWeather() {
         return data;
     })
     .then(function(data){
-        console.log("second");
         weather.temperature.value=Math.floor(data.main.temp - KELVIN);
         weather.description = data.weather[0].description;
         weather.iconId = data.weather[0].icon;
@@ -88,7 +84,6 @@ function getWeather() {
         weather.country = data.sys.country;
     })
     .then(function(){
-        console.log("third");
         displayWeather();
     });
 }
