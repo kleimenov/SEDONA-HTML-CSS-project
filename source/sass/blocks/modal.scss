@@ -155,6 +155,32 @@
     .modal__button {
         top: 6px;
     }
+    .modal__conditions-list {
+        flex-direction: column;
+    }
+
+    .conditions:nth-of-type(3),
+    .conditions:nth-of-type(4) {
+         width: 100%;
+     }
+    .condition__text {
+        width: 30%;
+    }
+    .conditions__input {
+        width: 70%;
+    }
+    .conditions:nth-of-type(3) .condition__text, 
+    .conditions:nth-of-type(4) .condition__text {
+        width: 30%;
+    }
+    .conditions:nth-of-type(3) .conditions__input,
+    .conditions:nth-of-type(4) .conditions__input {
+        width: 50%;
+    }
+    .modal__button-find {
+        width: 50%;
+    }
+
   }
 
 
