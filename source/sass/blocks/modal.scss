@@ -151,40 +151,7 @@
     border: 0;
   }
 
-  @media (max-width: 960px) {
-    .modal__button {
-        top: 6px;
-    }
-    .modal__conditions-list {
-        flex-direction: column;
-    }
 
-    .conditions:nth-of-type(3),
-    .conditions:nth-of-type(4) {
-         width: 100%;
-     }
-    .condition__text {
-        width: 30%;
-    }
-    .conditions__input {
-        width: 70%;
-    }
-    .conditions:nth-of-type(3) .condition__text, 
-    .conditions:nth-of-type(4) .condition__text {
-        width: 30%;
-    }
-    .conditions:nth-of-type(3) .conditions__input,
-    .conditions:nth-of-type(4) .conditions__input {
-        width: 50%;
-    }
-    .modal__button-find {
-        width: 50%;
-    }
-
-  }
-
-
-  
   .modal__button::after,
   .modal__button::before {
     content: "";
@@ -226,3 +193,78 @@
     display: none;
   }
 
+  @media (max-width: 960px) {
+    .modal__button {
+        top: 6px;
+    }
+    .modal__conditions-list {
+        flex-direction: column;
+    }
+
+    .conditions:nth-of-type(3),
+    .conditions:nth-of-type(4) {
+         width: 100%;
+     }
+    .condition__text {
+        width: 30%;
+    }
+    .conditions__input {
+        width: 70%;
+    }
+    .conditions:nth-of-type(3) .condition__text, 
+    .conditions:nth-of-type(4) .condition__text {
+        width: 30%;
+    }
+    .conditions:nth-of-type(3) .conditions__input,
+    .conditions:nth-of-type(4) .conditions__input {
+        width: 50%;
+    }
+    .modal__button-find {
+        width: 50%;
+    }
+  }
+
+  @media (max-width: 530px) {
+      .condition__text {
+          font-size: 15px;
+      }
+      .conditions__input::placeholder {
+          font-size: 12px;
+      }
+      .modal__button-find {
+        width: 100%;
+    }
+    .modal__legend {
+        font-size: 15px;
+    }
+    .modal__button {
+        right: 0;
+    }
+    .modal__button::after,
+    .modal__button::before {
+        width: 18px;
+        height: 4px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .condition__text {
+        font-size: 10px;
+    }
+    .conditions__input::placeholder {
+        font-size: 8px;
+    }
+    .modal__legend {
+        font-size: 13px;
+    }
+    .conditions:nth-of-type(3) .conditions__input,
+    .conditions:nth-of-type(4) .conditions__input {
+        width: 35%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .conditions:nth-of-type(3) .condition__text,
+    .conditions:nth-of-type(4) .condition__text {
+        padding-top: 1px;
+    }
+  }
