@@ -37,12 +37,22 @@
 }
 
 .conditions {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+.conditions__lable {
+    width: 100%;
+}
 
+.condition__text {
+    display: inline-block;
+    width: 20%;
+}
 
+.conditions__input {
+    width: 80%;
+}
 
 .modal-button {
     display: block;
