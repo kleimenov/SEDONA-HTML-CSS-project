@@ -5,10 +5,11 @@
     background-color: $bcg-grey;
     position: absolute;
     //display: none;
+    top: 10px;
+    left: 10px;
 }
 
 .modal__form {
-    position: relative;
     border: 1px solid $bcg-grey;
 }
 
@@ -175,3 +176,6 @@
     transform: rotate(-45deg);
   }
   
+  .modal--show {
+    display: block;
+  }
