@@ -1,0 +1,37 @@
+.modal {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal__form {
+    border: 1px solid gray;
+}
+
+.modal__legend {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: PTSans, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    color: $white-font;
+    text-align: center;
+    background-color: $bgc-blue;
+}
+
+.modal-button {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
