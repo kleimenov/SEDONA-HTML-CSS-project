@@ -9,7 +9,7 @@ const locationElement = document.querySelector('.location p');
 
 //to display the weather
 function displayWeather() {
-    iconElement.innerHTML = `<img src="assets/${weather.iconId}.png"/>`;
+    iconElement.innerHTML = `<img class="weather-pic" src="assets/${weather.iconId}.png"/>`;
 
     tempElement.innerHTML = `${weather.temperature.value}° <span>C</span>`;
 

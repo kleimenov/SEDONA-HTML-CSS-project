@@ -1,19 +1,35 @@
 .weather-wrapper {
     position: absolute;
     top: 2%;
-    right: 2%;
+    left: 2%;
     z-index: 999;
     margin-top: 0;
     margin-bottom: 0;
     width: 130px;
     text-align: center;
     font-size: 18px;
-    
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255,255,255, 0.3);
+
     @media (max-width: 660px) {
         width: 80px;
     }
+
+    @media (max-width: 400px) {
+        width: 55px;
+    }
+
 }
+
+.weather-pic {
+    width: 50px;
+    height: 50px;
+
+    @media (max-width: 400px) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 
 .weather-title {
     font-size: 20px;
