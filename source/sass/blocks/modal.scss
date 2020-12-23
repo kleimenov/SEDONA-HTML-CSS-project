@@ -30,8 +30,7 @@
 
 .modal__conditions {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     margin: 0;
     padding: 0;
 
@@ -42,6 +41,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
 
 .modal-button {
     display: block;
