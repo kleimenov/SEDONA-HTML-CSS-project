@@ -1,0 +1,59 @@
+.weather-wrapper {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    z-index: 999;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 130px;
+    text-align: center;
+    font-size: 18px;
+    
+    background-color: rgba(255,255,255, 0.1);
+    @media (max-width: 660px) {
+        width: 80px;
+    }
+}
+
+.weather-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(32, 33, 36, 0.7);
+
+    @media (max-width: 660px) {
+        font-size: 14px;
+        font-weight: normal;
+    }
+}
+
+.temperature-value {
+    font-size: 22px;
+    font-weight: bold;
+    //color: rgb(32, 33, 36);
+    color: rgba(32, 33, 36, 0.7);
+    @media (max-width: 660px) {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+}
+
+.temperature-description p{
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(32, 33, 36, 0.7);
+    @media (max-width: 660px) {
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
+
+.location {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(32, 33, 36, 0.7);
+    @media (max-width: 660px) {
+        font-size: 12px;
+        font-weight: normal;
+    }
+}

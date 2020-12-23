@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <title>Glaciers country</title>
+    <link rel="icon" href="assets/iceRock.png" type="image/png">
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="header-nav">
+            <img class="logo"
+                src="assets/logoIce.png"
+                alt="header-logo">
+            <!--
+            <div class="scheme-selector">
+                <button class="scheme-button">Bright scheme</button>
+                <button class="scheme-button">Dark scheme</button>
+            </div>
+            -->
+        </div>
+    </header>
+    <main>
+        <section class="slideshow-container" id="hero">
+            <ul class="slider">
+                <li>
+                    <img class ="sliderImg" src="assets/sliderPic1.jpg" alt="slider image glacier">
+                </li>
+               <li>
+                    <img class ="sliderImg" src="assets/sliderPic2.jpg" alt="slider image landscape and glacier infront">
+                </li>
+                <li>
+                    <img class ="sliderImg" src="assets/sliderPic3.jpg" alt="slider image landscape and calm water">
+                </li>
+                <li>
+                    <img class ="sliderImg" src="assets/sliderPic4.jpg" alt="slider image landskape murky weather">
+                </li>
+                <li>
+                    <img class ="sliderImg" src="assets/sliderPic5.jpg" alt="slider image landscape and glacier infront winter">
+                </li>
+            </ul>
+            <!--
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            -->
+            <div class="weather-wrapper">
+                <div class="weather-title">Weather</div>
+                <div class="notification"></div>
+                <div class="weather-container">
+                    <div class="weather-icon">
+                        <img src="icons/unknown.png">
+                    </div>
+                    <div class="temperature-value">
+                        <p>- °<span>C</span></p>
+                    </div>
+                    <div class="temperature-description">
+                        <p> - </p>
+                    </div>
+                    <div class="location">
+                        <p> - </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+        <div class="dot-style">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+        -->
+        <!--
+        <div class="weatherWidget" ></div>
+         -->
+        
+
+        <!-- -->
+        <div class="container">
+            <section>
+                <div class="dropdown">
+                    <button class="dropbtn">Image filter<span class="filter-arrow">&#9660;</span></button>
+                    <div class="dropdown-content">
+                        <a id="gallery-animal">Animals</a>
+                        <a id="gallery-cliff">Cliffs</a>
+                        <a id="gallery-lighthouse">Lighthouse</a>
+                        <a id="gallery-city">City/Village</a>
+                        <a id="gallery-other">Other</a>
+                        <a id="return-all">Show all pictures</a>
+                    </div>      
+                </div>
+                <ul class="gallery-list">
+                    <li>
+                        <picture>
+                            <source srcset="assets/animals_1.webp" type="image/webp">
+                            <source srcset="assets/animals_1.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-animal" src="assets/animals_1.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/animals(whale)_2.webp" type="image/webp">
+                            <source srcset="assets/animals(whale)_2.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-animal" src="assets/animals(whale)_2.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/animals_3.webp" type="image/webp">
+                            <source srcset="assets/animals_3.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-animal" src="assets/animals_3.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/animals_4.webp" type="image/webp">
+                            <source srcset="assets/animals_4.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-animal" src="assets/animals_4.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/city_1.webp" type="image/webp">
+                            <source srcset="assets/city_1.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-city" src="assets/city_1.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/city_2.webp" type="image/webp">
+                            <source srcset="assets/city_2.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-city" src="assets/city_2.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/city_3.webp" type="image/webp">
+                            <source srcset="assets/city_3.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-city" src="assets/city_3.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/city_4.webp" type="image/webp">
+                            <source srcset="assets/city_4.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-city" src="assets/city_4.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/city_5.webp" type="image/webp">
+                            <source srcset="assets/city_5.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-city" src="assets/city_5.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/cliff_1.webp" type="image/webp">
+                            <source srcset="assets/cliff_1.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-cliff" src="assets/cliff_1.jpg" alt="#">
+                        </picture>  
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/cliff_2.webp" type="image/webp">
+                            <source srcset="assets/cliff_2.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-cliff" src="assets/cliff_2.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/cliff_3.webp" type="image/webp">
+                            <source srcset="assets/cliff_3.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-cliff" src="assets/cliff_3.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/cliff_5.webp" type="image/webp">
+                            <source srcset="assets/cliff_5.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-cliff" src="assets/cliff_5.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/cliff_6.webp" type="image/webp">
+                            <source srcset="assets/cliff_6.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-cliff" src="assets/cliff_6.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_1.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_1.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_1.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_2.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_2.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_2.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_3.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_3.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_3.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_4.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_4.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_4.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_5.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_5.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_5.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/lighthouse_6.webp" type="image/webp">
+                            <source srcset="assets/lighthouse_6.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-lighthouse" src="assets/lighthouse_6.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/other_aurora.webp" type="image/webp">
+                            <source srcset="assets/other_aurora.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-other" src="assets/other_aurora.jpg" alt="#">
+                        </picture>  
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/other_iceberg.webp" type="image/webp">
+                            <source srcset="assets/other_iceberg.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-other" src="assets/other_iceberg.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/other_iceberg2.webp" type="image/webp">
+                            <source srcset="assets/other_iceberg2.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-other" src="assets/other_iceberg2.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/other_landscape.webp" type="image/webp">
+                            <source srcset="assets/other_landscape.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-other" src="assets/other_landscape.jpg" alt="#">
+                        </picture>
+                    </li>
+                    <li>
+                        <picture>
+                            <source srcset="assets/other_shore.webp" type="image/webp">
+                            <source srcset="assets/other_shore.jpg" type="image/jpeg">
+                            <img class="gallery-picture gallery-other" src="assets/other_shore.jpg" alt="#">
+                        </picture>
+                    </li>
+                </ul>
+            </section>
+            <section id="modalBox">
+                <div class="ctas">
+                    <button id="contactBtn">Contact us</button>
+                    <button id="aboutBtn">About us</button>
+                    <button id="mapBtn">Map</button>
+                </div>
+                <div id="contactModal" class="modal modal-hidden">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <form class="contactUsForm" action="#" method="post">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="firstName" id="fname" placeholder="Your name..." autocomplete="off">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lastName" id="lname" placeholder="Your surname..." autocomplete="off">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="Your email..." autocomplete="off">
+                            <label for="subject">Subject</label>
+                            <textarea type="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+                        </form>
+                        <button class="submit-button">Submit</button>
+                    </div>
+                </div>
+                <div id="aboutModal" class="modal modal-hidden">
+                    <div class="modal-content modal-content--opacity">
+                        <span class="close close--dark">&times;</span>
+                        <h3 class="aboutUsHeader">About us</h3>
+                        <p class="textAboutUs">
+                            Iceland, a Nordic island nation, is defined by its dramatic landscape with volcanoes, 
+                            geysers, hot springs and lava fields. Massive glaciers are protected in Vatnajökull 
+                            and Snæfellsjökull national parks. Most of the population lives in the capital, Reykjavik, 
+                            which runs on geothermal power and is home to the National and Saga museums, 
+                            tracing Iceland’s Viking history. The Sagas of Icelanders say that a Norwegian named Naddodd (or Naddador)
+                            was the first Norseman to reach Iceland, and in the 9th century he named it Snæland or "snow land" because it was snowing. 
+                            Following Naddodd, the Swede Garðar Svavarsson arrived, and so the island was then called Garðarshólmur which means "Garðar's Isle".
+                            Then came a Viking named Flóki Vilgerðarson; his daughter drowned en route, then his livestock starved to death. 
+                            The sagas say that the rather despondent Flóki climbed a mountain and saw a fjord (Arnarfjörður) full of icebergs, 
+                            which led him to give the island its new and present name. The notion that Iceland's Viking settlers chose 
+                            that name to discourage oversettlement of their verdant isle is a myth. More information you can find 
+                            <a class="aboutUsLink" href="https://en.wikipedia.org/wiki/Iceland">HERE.</a>
+                        </p>
+                    </div>
+                </div>
+                <div id="mapModal" class="modal modal-hidden">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3479526.7935660314!2d-23.728989318147267!3d64.79673570270751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d22b52a3eb6043%3A0x6f8a0434e5c1459a!2sIceland!5e0!3m2!1sen!2sca!4v1599767922797!5m2!1sen!2sca"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+                <!-- -->
+                <div id="popUpImageModal" class="modal modal-hidden">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img class="imgPopUp" src="" alt="">
+                    </div>
+                </div>
+                <!-- -->
+            </section>
+        </div>
+    </main>
+    <footer class="footer-sm-links">
+        <ul class="container footer-social-list">
+            <li>
+                <a class="twitter-footer" href="https://twitter.com">
+                    <span class="visually-hidden">Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a class="instagram-footer" href="http://www.instagram.com">
+                    <span class="visually-hidden">Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a class="fb-footer" href="http://www.facebook.com">
+                    <span class="visually-hidden">Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a class="google-footer" href="http://www.google.com">
+                    <span class="visually-hidden">G+</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
