@@ -41,16 +41,20 @@
     margin-left: auto;
     margin-right: auto;
 }
-.conditions__lable {
+.conditions__label {
     width: 100%;
 }
 
 .condition__text {
+    margin: 0;
+    padding: 0;
     display: inline-block;
     width: 20%;
 }
 
 .conditions__input {
+    margin: 0;
+    padding: 0;
     width: 80%;
 }
 
