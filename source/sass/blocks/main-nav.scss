@@ -10,6 +10,17 @@
   display: none;
   padding: 0;
   margin: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/icon-menu.svg");
+  background-repeat: no-repeat;
+}
+@media (max-width: 530px) {
+  .main-nav__toggle {
+    display: block;
+    border: 2px dotted red;
+    z-index: 2;
+  }
 }
 
 .main-nav__wrapper {
