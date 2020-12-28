@@ -1,9 +1,15 @@
 let menuBar = document.querySelector('.main-nav__toggle');
-let popUp = document.querySelector('.site-list')
+let navBarPopUp = document.querySelector('.site-list');
+let navList = document.querySelector('.main-nav__list');
 
-popUp.classList.add('hide-nav')
+
+if(window.innerWidth < 530) {
+    navBarPopUp.classList.add('nav--hide')
+}
+
 
 menuBar.addEventListener('click', (evt)=> {
     evt.preventDefault();
-    console.log('Hello')
+    navBarPopUp.classList.toggle('nav--hide')
+
 })
