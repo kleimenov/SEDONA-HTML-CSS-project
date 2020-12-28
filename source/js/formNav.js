@@ -13,5 +13,4 @@ menuBar.addEventListener('click', (evt)=> {
     evt.preventDefault();
     navBarPopUp.classList.toggle('nav--hide');
     navLogoF.classList.toggle('nav--hide');
-    
 })
