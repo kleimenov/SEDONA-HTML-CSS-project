@@ -1,7 +1,8 @@
 let menuBar = document.querySelector('.main-nav__toggle');
 let navBarPopUp = document.querySelector('.site-list');
 let navList = document.querySelector('.main-nav__list');
-let navLogo = document.querySelector('.page-header__logo-image');
+let navLogoP = document.querySelector('.page-header__logo-imageP');
+
 
 if(window.innerWidth < 530) {
     navBarPopUp.classList.add('nav--hide');
@@ -10,6 +11,7 @@ if(window.innerWidth < 530) {
 
 menuBar.addEventListener('click', (evt)=> {
     evt.preventDefault();
-    navBarPopUp.classList.toggle('nav--hide')
-    navLogo.classList.toggle('nav--hide')
+    navBarPopUp.classList.toggle('nav--hide');
+    navLogoP.classList.toggle('nav--hide');
+    
 })
