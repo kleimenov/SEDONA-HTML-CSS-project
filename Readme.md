@@ -1,4 +1,4 @@
-# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# It is my study project «Sedona» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ivan Kleimenov](https://up.htmlacademy.ru/adaptive/18/user/1162513).
 * Наставник: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
