@@ -14,3 +14,11 @@ menuBar.addEventListener('click', (evt)=> {
     navBarPopUp.classList.toggle('nav--hide');
     navLogoF.classList.toggle('nav--hide');
 })
+
+window.addEventListener('resize', function() {
+    if(window.innerWidth < 530) {
+        navBarPopUp.classList.add('nav--hide');
+    } else {
+        navBarPopUp.classList.remove('nav--hide');
+    }
+});
