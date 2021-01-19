@@ -1,4 +1,5 @@
-# It is a responsive web page «Sedona». (noncommercial project)
+# It is a responsive web page «Sedona». 
+(noncommercial project)
 
 * Student: [Ivan Kleimenov](https://up.htmlacademy.ru/adaptive/18/user/1162513).
 
@@ -20,6 +21,7 @@ This is the city of Sedona AZ website, main idea is to introduce advertisement o
 3) _The reviews from page_ include a handful of different forms whether radio buttons form or inputs and so on. The reviews form page also includes the same header and footer blocks as the main and photos page.
 
 Above was provided a brief description of the Sedona project.
+[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/source/index.html)
 
 ---
 
@@ -29,8 +31,17 @@ This responsive website is included four web pages. All pages are responsive, wo
 
 Here I will show a couple of screenshots of how it works for desktop and mobile version form main/photo and review pages (images here)
 
-[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/)
 
+This project is implemented fallow technologies:
+```
+- HTML;
+- CSS;
+- JavaScript;
+- SASS;
+- weather API (fetch data from weather API);
+- gulp.
+```
+I used HTML to the markup of all web pages. CSS helped me implemented all styling solutions. I used SASS for setting up all selectors' features and compiled them into a CSS style master file. All algorithms of DOM manipulating were implemented with JavaScript. I got existed DOM elements, create new classes on the fly, build new elements, transform the navigation bar, and so on with JS. Moreover, I used JS for the weather widget, I designed an algorithm, this algorithm fetched weather API and add it inside my weather widget.
 
 ---
 
