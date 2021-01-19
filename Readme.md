@@ -1,11 +1,25 @@
-# It is my study project «Sedona» 
+# It is a responsive web page «Sedona». (noncommercial project)
 
 * Student: [Ivan Kleimenov](https://up.htmlacademy.ru/adaptive/18/user/1162513).
 
 ---
+### Descripton
+This is the city of Sedona AZ website, main idea is to introduce advertisement of the city and provides useful information of city and region attractions and services. In this city, users can get information about hospitality and tourism in the city, moreover about different outdoor activities like hikes, horse riding, cycling and so on. Sedona website includes three specific webpages:
+- Main page;
+- Photo page;
+- Review page:
+-HTML Academy.
+1) The main page is the landing page, provide the following information:
+- website navigation block (aka header nav), links to other pages (photo, review form page);
+- the main block includes a local weather widget (fetch some weather API), advertisement slogans about the city, information on where to stay, eat and buy some souvenirs. Bunch of city and nature images, information about outdoor activities, and modal with a hotel booking form.
+- footer block with city hash tag, block with social networking sites links, and link on HTML academy (frontend Bootcamp).
 
-**Обратите внимание, что папка с вашими исходными файлами — `source/`.**
 
+
+
+
+
+###----------
 Полезный файл:
 
 - [Contributing.md](Contributing.md) — руководство по внесению изменений.
