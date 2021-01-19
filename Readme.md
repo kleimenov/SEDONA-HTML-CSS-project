@@ -23,6 +23,12 @@ Above was provided a brief description of the Sedona project.
 
 ---
 
+### Tech descripton and specification
+
+This responsive website is included four web pages. All pages are responsive, works with broad varieties of screens, in range from mobile devices (min-width: 320px) to desktops (min-width 1200px). This cross-devices website affords users to feel comfortable interact with content on this website whether the size of the screen their device has.
+
+
+---
 
 
 ###----------
