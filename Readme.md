@@ -1,6 +1,6 @@
 # It is my study project «Sedona» 
+
 * Student: [Ivan Kleimenov](https://up.htmlacademy.ru/adaptive/18/user/1162513).
-* Tutor: [Виктор Кан](https://htmlacademy.ru/profile/viktorkan).
 
 ---
 
