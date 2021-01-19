@@ -20,7 +20,7 @@ This is the city of Sedona AZ website, main idea is to introduce advertisement o
 3) _The reviews from page_ include a handful of different forms whether radio buttons form or inputs and so on. The reviews form page also includes the same header and footer blocks as the main and photos page.
 
 Above was provided a brief description of the Sedona project.
-
+---
 
 
 
