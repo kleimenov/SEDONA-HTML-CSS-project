@@ -28,9 +28,9 @@ Above was provided a brief description of the Sedona project.
 This responsive website is included four web pages. All pages are responsive, works with broad varieties of screens, in range from mobile devices (min-width: 320px) to desktops (min-width 1200px). This cross-devices website affords users to feel comfortable interact with content on this website whether the size of the screen their device has.
 
 Here I will show a couple of screenshots of how it works for desktop and mobile version form main/photo and review pages (images here)
-```
-[You can explore this website detailed here](https://kleimenov.github.io/SEDONA-HTML-CSS-project/)
-```
+
+[You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/)
+
 
 ---
 
