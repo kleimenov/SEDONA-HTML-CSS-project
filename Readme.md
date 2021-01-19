@@ -41,3 +41,10 @@ This project is implemented fallow technologies:
 I used HTML to the markup of all web pages. CSS helped me implemented all styling solutions. I used SASS for setting up all selectors' features and compiled them into a CSS style master file. All algorithms of DOM manipulating were implemented with JavaScript. I got existed DOM elements, create new classes on the fly, build new elements, transform the navigation bar, and so on with JS. Moreover, I used JS for the weather widget, I designed an algorithm, this algorithm fetched weather API and add it inside my weather widget.
 
 ---
+### Descriptions of JavaScript features 
+1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture include couple of function. 
+Function `displayWeather()` create DOM elements taht consist weather data. Function `getWeather()` fetched weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculated and transition data in confort measure sistem for user.
+2) _Navigation menu transformation (from hirzontal to dropdown_, implemented transformation menu bar algorithm. Deployed particular button, that hidden in specific range of screen width and when screen width equal specific condition, algorithm makes navigaiton menu as dropdown menu and toggle logo image.
+3) _Modal hotel booking form_. Implemented algoritm that afford to show and hide modal booking form. Algoritm include follow steps: find modal element inside HTML markup, listen event `user click on button`, show modal booking form, get user data, hide modal form when user click on particular button. 
+4) _Likes toggle_ it is my favorite feature, for this I implement toggle algorithm.
+
