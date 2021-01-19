@@ -29,7 +29,7 @@ This responsive website is included four web pages. All pages are responsive, wo
 
 Here I will show a couple of screenshots of how it works for desktop and mobile version form main/photo and review pages (images here)
 ```
-[You can explore this website detailed here] (https://kleimenov.github.io/SEDONA-HTML-CSS-project/)
+[You can explore this website detailed here](https://kleimenov.github.io/SEDONA-HTML-CSS-project/)
 ```
 
 ---
