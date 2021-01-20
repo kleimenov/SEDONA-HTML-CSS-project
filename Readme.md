@@ -1,24 +1,22 @@
-# It is a responsive web page «Sedona». 
-(noncommercial project)
+# Responsive website «Sedona». 
+(non-commercial project)
 
-* Student: [Ivan Kleimenov](https://up.htmlacademy.ru/adaptive/18/user/1162513).
+* Author: [Ivan Kleimenov](https://github.com/kleimenov).
 
 ---
 ### Descripton
-This is the city of Sedona AZ website, main idea is to introduce advertisement of the city and provides useful information of city and region attractions and services. In this city, users can get information about hospitality and tourism in the city, moreover about different outdoor activities like hikes, horse riding, cycling and so on. Sedona website includes three specific webpages:
-- Main page;
-- Photo page;
-- Review page:
-- HTML Academy.
+This is the city of Sedona, AZ website. The main idea is to introduce advertisement of the city and to provide useful information about the city and region attractions and services. Sedona's website has three webpages:
+- main (home) page;
+- photos page;
+- reviews page.
 
-1) _The main page_ is the landing page, provide the following information:
-- website navigation block (aka header nav), links to other pages (photo, review form page);
-- the main block includes a local weather widget (fetch some weather API), advertisement slogans about the city, information on where to stay, eat and buy some souvenirs. Bunch of city and nature images, information about outdoor activities, and modal with a hotel booking form.
-- footer block with city hash tag, block with social networking sites links, and link on HTML academy (frontend Bootcamp).
+All pages contain the website navigation block (aka header nav) with the links to other pages (photo, review form page) and the footer block with city hashtag, social networking sites links, and link to HTML Academy website (frontend Bootcamp);
 
-2) _The photo page_ is the photos and videos host page. On this page, you can find a bunch of popular photos, explore user attitude (amount of likes), and show your respect that photos and authors that attracts your attention. This page also includes navigation header block and footer block, these blocks have the same logic as blocks on the main page.
+1) _The main page_ is the landing page, where you can find a local weather widget (that fetches data from a weather API), a main hero section, a features list, an accomodation search pop-up and a map.
 
-3) _The reviews from page_ include a handful of different forms whether radio buttons form or inputs and so on. The reviews form page also includes the same header and footer blocks as the main and photos page.
+2) _The photo page_ is the photos and videos host page. On this page you can find popular photos, explore users attitude (amount of likes), and show your respect that photos and authors that attracts your attention. 
+
+3) _The reviews page_ includes forms with different types of interactive elements such as radio buttons, checkboxes, text inputs, etc.
 
 Above was provided a brief description of the Sedona project.
 [You can explore this website detailed here (link on github pages)](https://kleimenov.github.io/SEDONA-HTML-CSS-project/source/index.html)
@@ -27,9 +25,9 @@ Above was provided a brief description of the Sedona project.
 
 ### Tech descripton and specification
 
-This responsive website is included four web pages. All pages are responsive, works with broad varieties of screens, in range from mobile devices (min-width: 320px) to desktops (min-width 1200px). This cross-devices website affords users to feel comfortable interact with content on this website whether the size of the screen their device has.
+This website includes four web pages. All pages are responsive, work with a broad variety of screens, in range from mobile devices (screen width 320px) to desktops (screen width 1200px and higher). This cross-devices website affords users to feel comfortable interacting with content on this website whether the size of the screen their device has.
 
-This project is implemented fallow technologies:
+This project is build with the following technologies:
 ```
 - HTML;
 - CSS;
@@ -38,13 +36,14 @@ This project is implemented fallow technologies:
 - weather API (fetch data from weather API);
 
 ```
-I used HTML to the markup of all web pages. CSS helped me implemented all styling solutions. I used SASS for setting up all selectors' features and compiled them into a CSS style master file. All algorithms of DOM manipulating were implemented with JavaScript. I got existed DOM elements, create new classes on the fly, build new elements, transform the navigation bar, and so on with JS. Moreover, I used JS for the weather widget, I designed an algorithm, this algorithm fetched weather API and add it inside my weather widget.
+Semantic HTML is used for all webpages markup with the elements of block - element - modifier system in class naming. All elements are styled with CSS using the inheritance and cascading rules, and selectors specificity. CSS rules are contained in a separate .scss files for easier maitenance and then compiled with the Sass preprocessor into a CSS style master file to reduce the number of interactions with a server. Responsiveness is provided by the usage of media queries and sass variables.
+All algorithms  were implemented with JavaScript. This includes DOM manipulation (DOM elements creation and modification) and API fetching.
 
 ---
 ### Descriptions of JavaScript features 
-1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture include couple of function. 
-Function `displayWeather()` create DOM elements taht consist weather data. Function `getWeather()` fetched weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculated and transition data in confort measure sistem for user.
-2) _Navigation menu transformation (from hirzontal to dropdown_, implemented transformation menu bar algorithm. Deployed particular button, that hidden in specific range of screen width and when screen width equal specific condition, algorithm makes navigaiton menu as dropdown menu and toggle logo image.
+1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture includes following functions: 
+Function `displayWeather()` creates DOM elements that contains weather data. Function `getWeather()` fetches weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculate and transition data to the measurement sistem convenient for user.
+2) _Navigation menu transformation (from horzontal to dropdown_, implemented transformation menu bar algorithm. Deployed particular button, that hidden in specific range of screen width and when screen width equal specific condition, algorithm makes navigaiton menu as dropdown menu and toggle logo image.
 3) _Modal hotel booking form_. Implemented algoritm that afford to show and hide modal booking form. Algoritm include follow steps: find modal element inside HTML markup, listen event `user click on button`, show modal booking form, get user data, hide modal form when user click on particular button. 
 4) _Likes toggle_ it is my favorite feature, for this I implement toggle algorithm.
 
