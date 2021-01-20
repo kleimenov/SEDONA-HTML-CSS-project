@@ -12,9 +12,9 @@ This is the city of Sedona, AZ website. The main idea is to introduce advertisem
 
 All pages contain the website header (aka navigation block) with the links to other pages (photos page, reviews form page) and the footer block with city hashtag, social networking sites links, and link to HTML Academy website (frontend Bootcamp).
 
-1) _The main page_ is the landing page, where you can find a local weather widget (that fetches data from a weather API), a main hero section, a features list, an accomodation search pop-up and a map.
+1) _The main page_ is the landing page, where you can find a local weather widget (that fetches data from a weather API), the main hero section, a features list, an accommodation search pop-up, and a map.
 
-2) _The photo page_ is the photos and videos host page. On this page you can find popular photos, explore users attitude (amount of likes), and show your respect that photos and authors that attracts your attention. 
+2) _The photo page_ is the photos and videos host page. On this page, you can find popular photos, explore users attitude (amount of likes), and show your respect that photos and authors that attracts your attention. 
 
 3) _The reviews page_ includes forms with different types of interactive elements such as radio buttons, checkboxes, text inputs, etc.
 
