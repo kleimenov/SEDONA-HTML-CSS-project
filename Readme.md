@@ -45,3 +45,4 @@ Function `displayWeather()` creates DOM elements that contains weather data. Fun
 2) _Modal hotel booking form_. Implemented algorithm allows to show and hide modal booking form. Algorithm includes follow steps: find modal element inside HTML markup, listen for the event `a user click on the button`, show the modal booking form, get user's data, hide modal form when user click on a particular button. 
 3) _Likes toggle_ with the toggle algorithm.
 
+
