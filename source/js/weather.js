@@ -65,12 +65,12 @@ weather.temperature = {
 const KELVIN = 273;
 
 //API key
-const key = '072e3ec2199386d51ce3c8b4fd8b194d';
+const key = 'password';
 
 
 function getWeather() {
     // let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtitude}&appid=${key}`;
-    let api = `https://api.openweathermap.org/data/2.5/weather?q=Sedona&appid=072e3ec2199386d51ce3c8b4fd8b194d`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=Sedona&appid=password`;
 
     fetch(api).then(function(response){
         let data = response.json();
