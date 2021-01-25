@@ -40,7 +40,7 @@ All algorithms  were implemented with JavaScript. This includes DOM manipulation
 
 ---
 ### Descriptions of JavaScript features 
-1) _Weather API_ implemented on vanilla JavaScript. Weather API architecture includes following functions: 
+1) _Weather API_ implemented on vanilla JavaScript (I use my personal KEY from api.openweathermap.org because of that in open source at Github I use place holder 'password', it means if you want to see real weather please use your personal KEY). Weather API architecture includes following functions: 
 Function `displayWeather()` creates DOM elements that contains weather data. Function `getWeather()` fetches weather API from outer resource. Functions `celsiusToFahrenheit()` and `fahrenheitToCelsius()` calculate and transition data to the measurement sistem convenient for user.
 2) _Modal hotel booking form_. Implemented algorithm allows to show and hide modal booking form. Algorithm includes follow steps: find modal element inside HTML markup, listen for the event `a user click on the button`, show the modal booking form, get user's data, hide modal form when user click on a particular button. 
 3) _Likes toggle_ with the toggle algorithm.
